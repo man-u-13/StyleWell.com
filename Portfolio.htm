@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style_portfolio.css" rel="stylesheet"/>
+		<link href="form.css" rel="stylesheet"/>
+		<title>FeedBack</title>
+	</head>
+	<body alink="black" vlink="black">
+		<nav>
+			<h3 id="heading"><a href="home.htm">StyleWell.com</a></h3>
+			<ul>
+				<a href="home.htm"><li>HOME</li></a>
+				<a href="services.htm"><li >SERVICES</li></a>
+				<a href="About.htm"><li>ABOUT</li></a>
+				<a href=""><li id="active">FEEDBACK</li></a>
+				<a href="Blog.htm"><li>BLOG</li></a>
+				<a href="Contact.htm"><li>CONTACT</li></a>
+			</ul>
+		</nav>
+		
+		<div id="title"><h4>Help Us Serve You Better</h4></div>
+		<div id="main"> 
+		<p id="sub"><form method="get" >
+						  <fieldset>
+						 	   <legend>FEEDBACK FORM</legend>
+						  	   <label for="Name">Name: </label>
+						       <input type="text" name="Name" id="Fname" placeholder="Enter Name..." required>
+						  	   <label for="Email">E-mail: </label>
+						  	   <input type="email" name="Email" placeholder="Enter E-mail..." required>
+						  	   <label for="DoB">Date of Birth: </label>
+						  	   <input type="date" name="DoB" required>
+						  	   <label for="quality">Rate Our Website: </label>
+						  	   <div id="radio">
+						  	   		<label class="radio"><input type="radio" name="quality" value="Very Good" />Very Good</label>
+							   		<label class="radio"><input type="radio" name="quality" value="Good" />Good</label>
+							   		<label class="radio"><input type="radio" name="quality" value="Average" checked/>Average</label>
+							   		<label class="radio"><input type="radio" name="quality" value="Poor" />Poor</label>
+							   		<label class="radio"><input type="radio" name="quality" value="Very Poor" />Very Poor</label>
+						  	   </div>
+						  	   <label for="source">Source of Information about our website:</label>
+							   <select size=4 name="source" multiple>
+							   		   <optgroup label="Search Engines">
+									   			 <option value="Google" selected>Google</option>
+												 <option value="yahoo">Yahoo</option>
+												 <option value="msn">MSN</option>
+												 <option value="other">Other</option>
+									   </optgroup>
+									   <optgroup label="Advertisment">
+									   			 <option value="Television">Television</option>
+												 <option value="Radio">Radio</option>
+												 <option value="NewsPaper">News Paper</option>
+									   </optgroup>
+									   <optgroup label="Others">
+									   			 <option value="friends">Friends</option>
+												 <option value="website">Any other website</option>
+									   </optgroup>
+							   </select>
+							   <label for="suggestions">Suggestions, If any:</label>
+							   <textarea name="suggestions"></textarea>
+							   <label class="checkbox"><input type="checkbox" name="newsletter" value="true" checked/>Recieve Newsletters!</label>
+						  	   <input type="submit" value="Submit" id="submit">
+						  </fieldset>
+					</form>
+		   </section></p>
+		</div>
+		<br/><br/><br/><br/>
+	
+		<hr/>
+		<div id="footer1">Website developed by: Manu Sharma</div>
+		<div id="footer2">All Content copyright&copy; 2016</div>
+		<script src="js/form.js"></script>
+	</body>

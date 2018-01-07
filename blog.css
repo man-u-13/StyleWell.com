@@ -1,0 +1,15 @@
+#Blog
+{
+font-size: 18px;
+font-family: courier;
+color: blue;
+padding:2px;
+margin:5px;
+}
+
+#date
+{
+display:block;
+font-size: 16px;
+color:grey;	
+}
